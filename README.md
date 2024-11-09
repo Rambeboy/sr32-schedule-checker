@@ -38,6 +38,10 @@ npm install
 
 Create a `.env` file in the root directory and add the following environment variables:
 
+```bash
+cp .env.example .env
+```
+
 ```plaintext
 SPACE_ID=<your-google-chat-space-id>
 SPACE_KEY=<your-google-chat-api-key>
