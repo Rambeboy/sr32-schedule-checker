@@ -1,6 +1,8 @@
-# SR32 Schedule Checker
+### SR32 Schedule Checker
 
 An automated schedule checker for SR32 badminton courts that sends availability notifications to a Google Chat room. This project uses a cron job to periodically check and notify you of badminton court availability on specified dates and times.
+
+---
 
 ## Features
 
@@ -8,17 +10,21 @@ An automated schedule checker for SR32 badminton courts that sends availability 
 - Sends notifications to Google Chat with court availability status for specified time slots.
 - Easy setup using environment variables for secure data handling.
 
+---
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (version 14.x or higher)
 - [Google Chat API webhook URL](https://developers.google.com/chat) to receive notifications
+
+---
 
 ## Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dante4rt/sr32-schedule-checker.git
+git clone https://github.com/Rambeboy/sr32-schedule-checker.git
 cd sr32-schedule-checker
 ```
 
@@ -55,6 +61,8 @@ const job = new cron.CronJob(
 );
 ```
 
+---
+
 ## Usage
 
 Run the application with the following command:
@@ -65,6 +73,8 @@ npm start
 
 The script will automatically start checking the schedule and posting availability updates to Google Chat.
 
+---
+
 ### Example Message
 
 ```text
@@ -73,6 +83,10 @@ Badminton court availability for Tuesday, 14-Nov-2024:
 ❌ 17:00 - 18:00 - Not available
 ```
 
+---
+
 ## License
 
 This project is licensed under the MIT License.
+
+---
