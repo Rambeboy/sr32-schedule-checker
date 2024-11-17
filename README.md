@@ -1,4 +1,4 @@
-### SR32 Schedule Checker
+## SR32 SCHEDULE CHECKER
 
 An automated schedule checker for SR32 badminton courts that sends availability notifications to a Google Chat room. This project uses a cron job to periodically check and notify you of badminton court availability on specified dates and times.
 
@@ -24,8 +24,7 @@ An automated schedule checker for SR32 badminton courts that sends availability 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Rambeboy/sr32-schedule-checker.git
-cd sr32-schedule-checker
+git clone https://github.com/Rambeboy/sr32-schedule-checker.git && cd sr32-schedule-checker
 ```
 
 ### 2. Install dependencies
